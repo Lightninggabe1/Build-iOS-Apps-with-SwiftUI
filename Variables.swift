@@ -24,3 +24,7 @@ print(apples)
 //5/9: Type
 var book: String = "Just Kids"
 var pageCount: Int = 278
+
+//6/9: String Interpolation
+var age: Int = 11
+print("I am \(age) years old.")
