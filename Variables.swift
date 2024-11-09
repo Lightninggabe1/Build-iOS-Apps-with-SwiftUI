@@ -28,3 +28,6 @@ var pageCount: Int = 278
 //6/9: String Interpolation
 var age: Int = 11
 print("I am \(age) years old.")
+
+//7/9: Constants
+let months = 4
