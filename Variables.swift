@@ -20,3 +20,7 @@ apples -= 4
 apples /= 2
 
 print(apples)
+
+//5/9: Type
+var book: String = "Just Kids"
+var pageCount: Int = 278
