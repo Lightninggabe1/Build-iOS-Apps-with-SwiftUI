@@ -29,3 +29,27 @@ if tuneSquadPoints < monstarsPoints {
 else {
   print("tuneSquad win!")
 }
+
+//5/11: Else If Statements
+// Write your code below 🗽
+/*EN = English
+ES = Spanish
+ZH = Chinese
+YI = Yiddish
+*/
+var abbreviation = "EN"
+if abbreviation == "ES" {
+  print("Spanish")
+}
+else if abbreviation == "EN" {
+  print("English")
+}
+else if abbreviation == "ZH" {
+  print("Chinese")
+}
+else if abbreviation == "YI" {
+  print("Yiddish")
+}
+else {
+  print("Abbreviation not found")
+}
