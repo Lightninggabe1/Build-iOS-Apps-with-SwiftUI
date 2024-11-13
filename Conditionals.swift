@@ -107,7 +107,7 @@ switch episode {
     villain = "Emperor Palpatine"
   case 4...6:
     villain = "Darth Vader"
-  case 7...9:
+  case 7...9
     villain = "Kylo Ren"
   default:
     villain = ""
