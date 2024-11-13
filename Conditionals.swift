@@ -96,3 +96,34 @@ switch secretIdentity {
     superheroName = "Unknown"
 }
 print(superheroName)
+
+//8/11: Switch Statement: Interval Matching
+var episode = 8
+var villain: String 
+
+// Write your code below 🦹
+switch episode {
+  case 1...3:
+    villain = "Emperor Palpatine"
+  case 4...6:
+    villain = "Darth Vader"
+  case 7...9:
+    villain = "Kylo Ren"
+  default:
+    villain = ""
+}
+print(villain)
+
+/*9/11: Switch Statement: Compound Cases
+Mention in review that they did not allow me to flip order of planets*/
+var planet = "Earth" 
+
+// Write your code below 🪐
+switch planet {
+  case "Earth", "Mercury", "Venus", "Mars":
+    print("Terrestrial planet")
+  case "Saturn", "Jupiter", "Uranus", "Neptune":
+    print("Jovian planet")
+  default:
+    print("Unknown planet")
+}
