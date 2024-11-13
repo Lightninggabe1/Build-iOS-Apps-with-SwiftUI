@@ -1,0 +1,10 @@
+{
+  "platform": {
+    "name": "ubuntu2004",
+    "nameFull": "ubuntu20.04",
+    "namePretty": "Ubuntu 20.04.6 LTS",
+    "architecture": null
+  },
+  "installedToolchains": [],
+  "inUse": null
+}
