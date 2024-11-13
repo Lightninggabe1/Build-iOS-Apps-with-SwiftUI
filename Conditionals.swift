@@ -53,3 +53,15 @@ else if abbreviation == "YI" {
 else {
   print("Abbreviation not found")
 }
+
+//6/11: Ternary Conditional Operator
+var windy = true 
+
+if windy {
+  print("Sails up")
+} else {
+  print("Motor on")
+}
+
+// Write your code below ⛵
+windy ? print("Sails up") : print("Motor on")
