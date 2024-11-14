@@ -107,7 +107,7 @@ switch episode {
     villain = "Emperor Palpatine"
   case 4...6:
     villain = "Darth Vader"
-  case 7...9
+  case 7...9:
     villain = "Kylo Ren"
   default:
     villain = ""
@@ -116,7 +116,7 @@ print(villain)
 
 /*9/11: Switch Statement: Compound Cases
 Mention in review that they did not allow me to flip order of planets*/
-var planet = "Earth" 
+var planet: String = "Earth" 
 
 // Write your code below 🪐
 switch planet {
@@ -129,7 +129,7 @@ switch planet {
 }
 
 //10/11: Switch Statement: Where Clause:
-var wholeNumber = Int.random(in: 10...20)
+var wholeNumber: Int = Int.random(in: 10...20)
 print(wholeNumber)
 // Write your code below 
 switch wholeNumber {
